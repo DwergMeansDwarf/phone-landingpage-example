@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url(./img/back.png);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#images {
+  display: flex;
+  width: 40vw;
+  height: 100vh;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.productDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60vw;
+  height: 100vh;
+
+  margin-right: 100px;
+}
+.buttonHolster {
+  display: flex;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+h1 {
+  font-size: 48px;
+}
+p {
+  font-size: 18px;
+}
+li {
+  text-align: left;
+}
+.productDesc span {
+  color: #00000080;
+}
+button {
+  border-radius: 25%;
+  padding: 20px;
+  margin: 5px;
+}
+#blueButton {
+  background-color: #005f87;
+}
+#redButton {
+  background-color: #ff7b7b;
+}
+#greenButton {
+  background-color: #96be8c;
+}
+#pinkButton {
+  background-color: #7d2480;
+}
+#goldButton {
+  background-color: #dcb478;
+}
+#silverButton {
+  background-color: #c9c9c9;
+}
